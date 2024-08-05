@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+*{
+    background-color: #fff;
+    color: #000;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+#nav h1{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#nav-1 h6{
+    font-size: 17px;
+    font-weight: 500;
+    border: 1.5px solid #000;
+    border-radius: 30px;
+    padding: 5px 12px;
+}
+
+#nav-1 i{
+    font-size: 17px;
+    font-weight: 500;
+    border: 1.5px solid #000;
+    border-radius: 30px;
+    padding: 5px 12px;
+}
+
+#nav #nav-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-3 button{
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 100;
+    padding: 5px 12px;
+    border: 1.5px solid #000;
+}
+
+#nav-3 #b2{
+    background-color: rgb(255, 115, 0);
+    color: #fff;
+    border: none;
+}
+
+#main>h1{
+    font-size: 160px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    white-space: nowrap;
+}
+
+#main img{
+    height: 430px;
+    width: 320px;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+}
+
+#main #img-1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+
+#main #img-2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+
+#main #img-3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+#bottom-text{
+    font-size: 17px;
+    font-weight: 500;
+    position: absolute;
+    left: 40px;
+    bottom: 20px;
+}
+
+#arrow i{
+    font-size: 30px;
+    padding: 15px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 47%;
+    bottom: -7%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
